@@ -1,3 +1,4 @@
+Try Now
 Thanks for downloading this template!
 
 Template Name: Reveal
