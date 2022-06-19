@@ -11,3 +11,8 @@ Our Teams:
 
 Try and visit our websites in
 https://ausion.herokuapp.com/
+
+______________________________
+[BAHASA]
+
+Proyek ini dibuat sebagai tugas akhir di Orbit Future Academy pada program Magang dan Studi Independen Bersertifikat (MSIB) Kampus Merdeka. Kampus Merdeka merupakan suatu program yang dibawah naungan Kementerian Pendidikan, Budaya, Riset, dan Teknologi Republik Indonesia.
