@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Ausion - Result Page</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="../static/img/favicon.png" rel="icon" />
+    <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="../static/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="../static/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../static/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../static/vendor/boxicons/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../static/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link
+      href="../static/vendor/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="../static/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Reveal - v4.7.0
+  * Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <main id="main">
+      <div class="container back-home" data-aos="fade-up">
+        <a href="/"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="48"
+            height="48"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+              d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zm0 18c4.42 0 8-3.58 8-8s-3.58-8-8-8-8 3.58-8 8 3.58 8 8 8zm0-9h4v2h-4v3l-4-4 4-4v3z"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <!-- ======= Services Section ======= -->
+      <section id="product">
+        <div class="container" data-aos="fade-up">
+          <div class="section-header-prod">
+            <h2>Product</h2>
+            {% if result %}
+            <p>Based on our analize, your skin concern is:</p>
+            <p class="bold-font">{{result}}</p>
+            <p>
+              scar which this mean your skin type is
+              <span class="bold-font">{{kulit}}</span> and your skin problem is
+              <span class="bold-font">{{masalah}}</span>
+            </p>
+            {% endif %}
+          </div>
+
+          <div class="row justify-content-center">
+            {% for row in data %}
+            <div
+              class="col-lg-3 col-md-4 col-6 d-flex justify-content-center text-center"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              style="margin-bottom: 30px"
+            >
+              <div class="box">
+                <div class="cate">
+                  <p clas>{{row[4]}}</p>
+                </div>
+                <img
+                  src="{{row[2]}}"
+                  alt="Girl in a jacket"
+                  width="200"
+                  height="200"
+                />
+
+                <div class="brand">
+                  <h3>{{row[1]}}</h3>
+                </div>
+
+                <div class="produk">
+                  <p>{{row[0]}}</p>
+                </div>
+                <div class="price">
+                  <p>{{row[3]}}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor%}
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container footer-bottom clearfix">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Arsha</span></strong
+          >. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="../static/vendor/aos/aos.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="../static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="../static/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../static/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="../static/js/main.js"></script>
+  </body>
+</html>
