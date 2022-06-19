@@ -1,8 +1,8 @@
-AUSION TEAM
+# AUSION TEAM
 
 This project is built up as a Final Project in Orbit Future Academy from Independent Study Certified by Kampus Merdeka. Kampus Merdeka is program under the Ministry of Education, Culture, Research, and Technology Republik of Indonesia. 
 
-Our Teams:
+### Our Teams:
 - Glenn Budiman
 - Gusti Putu Aryo Widano
 - Lalu Habib Satya Wiguna
@@ -15,9 +15,10 @@ https://ausion.herokuapp.com/
 ______________________________
 [BAHASA]
 
+# TIM AUSION
 Proyek ini dibuat sebagai tugas akhir di Orbit Future Academy pada program Studi Independen Bersertifikat (MSIB) Kampus Merdeka. Kampus Merdeka merupakan suatu program yang dibawah naungan Kementerian Pendidikan, Budaya, Riset, dan Teknologi Republik Indonesia.
 
-Kelompok kami:
+### Kelompok kami:
 - Glenn Budiman
 - Gusti Putu Aryo Widano
 - Lalu Habib Satya Wiguna
