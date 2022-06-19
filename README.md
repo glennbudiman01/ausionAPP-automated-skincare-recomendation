@@ -16,3 +16,13 @@ ______________________________
 [BAHASA]
 
 Proyek ini dibuat sebagai tugas akhir di Orbit Future Academy pada program Magang dan Studi Independen Bersertifikat (MSIB) Kampus Merdeka. Kampus Merdeka merupakan suatu program yang dibawah naungan Kementerian Pendidikan, Budaya, Riset, dan Teknologi Republik Indonesia.
+
+Kelompok kami:
+- Glenn Budiman
+- Gusti Putu Aryo Widano
+- Lalu Habib Satya Wiguna
+- Nabila Victory Aribowo
+- Putri Anugrah Br. Ginting
+
+Coba dan kunjungi website kami di
+https://ausion.herokuapp.com/
