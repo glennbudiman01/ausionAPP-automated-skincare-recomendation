@@ -10,10 +10,10 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/img/photo/'
 
 mydb = mysql.connector.connect(
-    host="sql6.freemysqlhosting.net",
-    user="sql6499952",
-    password="5dZWzhjMWv",
-    database="sql6499952"
+    host="sql12.freemysqlhosting.net",
+    user="sql12579730",
+    password="lCRUNJPZlP",
+    database="sql12579730"
 )
 
 
