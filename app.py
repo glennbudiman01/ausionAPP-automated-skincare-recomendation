@@ -23,8 +23,8 @@ def main():
         return render_template("index.html")
 
     elif request.method == 'POST':
-        model1 = load_model('ausion.h5', compile=False)
-        model2 = joblib.load("stacking-model.pkl")
+        model1 = load_model('./model development/ausion.h5', compile=False)
+        model2 = joblib.load("./model development/stacking-model.pkl")
 
         a = request.form.get('optradio')
         a = int(a)
