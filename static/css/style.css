@@ -1005,6 +1005,7 @@ section {
 
 .bold-font {
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 #product {
