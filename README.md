@@ -1,6 +1,6 @@
 # AUSION TEAM
 
-This project is built up as a Final Project in Orbit Future Academy from Independent Study Certified by Kampus Merdeka. Kampus Merdeka is program under the Ministry of Education, Culture, Research, and Technology Republik of Indonesia. 
+This project is built up as a Final Project in Orbit Future Academy from Independent Study Certified by Kampus Merdeka Batch 2 (2022). Kampus Merdeka is program under the Ministry of Education, Culture, Research, and Technology Republik of Indonesia. 
 
 ### Our Teams:
 - Glenn Budiman
@@ -16,7 +16,7 @@ ______________________________
 [BAHASA]
 
 # TIM AUSION
-Proyek ini dibuat sebagai tugas akhir di Orbit Future Academy pada program Studi Independen Bersertifikat (MSIB) Kampus Merdeka. Kampus Merdeka merupakan suatu program yang dibawah naungan Kementerian Pendidikan, Budaya, Riset, dan Teknologi Republik Indonesia.
+Proyek ini dibuat sebagai tugas akhir di Orbit Future Academy pada program Studi Independen Bersertifikat (MSIB) Kampus Merdeka Batch 2 (2022). Kampus Merdeka merupakan suatu program yang dibawah naungan Kementerian Pendidikan, Budaya, Riset, dan Teknologi Republik Indonesia.
 
 ### Kelompok kami:
 - Glenn Budiman
