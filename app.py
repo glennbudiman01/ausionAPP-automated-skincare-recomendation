@@ -17,10 +17,11 @@ app.config['UPLOAD_FOLDER'] = 'static/img/photo/'
 #    database="sql7584011"
 #)
 
+#connector utk sql local
 mydb = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
-    database = 'ausion',
+    database = 'ausion', #nama database, utk produkdb = nama tabel produk skincare
     password = ''
 )
 
